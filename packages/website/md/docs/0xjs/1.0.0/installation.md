@@ -11,7 +11,16 @@ npm install 0x.js --save
 **Import**
 
 ```javascript
-import { ZeroEx } from '0x.js';
+import {
+    assetDataUtils,
+    BigNumber,
+    ContractWrappers,
+    generatePseudoRandomSalt,
+    Order,
+    orderHashUtils,
+    signatureUtils,
+    SignerType,
+} from '0x.js';
 ```
 
 #### UMD:
@@ -28,4 +37,4 @@ Download the UMD module from our [releases page](https://github.com/0xProject/0x
 
 ### Wiki
 
-Check out our [wiki](https://0xproject.com/wiki) for articles on how to get 0x.js setup with TestRPC, Infura and more!
+Check out our [wiki](https://0xproject.com/wiki) for articles on how to get 0x.js setup with Ganache, Infura and more!
