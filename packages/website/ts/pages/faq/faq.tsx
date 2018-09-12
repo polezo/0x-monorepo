@@ -247,13 +247,7 @@ const sections: FAQSection[] = [
                     <div>
                         100% of the proceeds raised in the token launch will be used to fund the development of free and
                         open source software, tools and infrastructure that support the protocol and surrounding
-                        ecosystem. Check out our{' '}
-                        <a
-                            href="https://docs.google.com/document/d/1_RVa-_bkU92fWRsC8eNy4vYjcTt-WC8GtqyyjbTd-oY"
-                            target="_blank"
-                        >
-                            development roadmap
-                        </a>.
+                        ecosystem. 
                     </div>
                 ),
             },
@@ -335,35 +329,7 @@ const sections: FAQSection[] = [
                     </div>
                 ),
             },
-            {
-                prompt: 'Which cryptocurrencies will be accepted in the token launch?',
-                answer: <div>ETH.</div>,
-            },
-            {
-                prompt: 'When will 0x be live?',
-                answer: (
-                    <div>
-                        An alpha version of 0x has been live on our private test network since January 2017. Version 1.0
-                        of 0x protocol will be deployed to the canonical Ethereum blockchain after a round of security
-                        audits and prior to the public token launch. 0x will be using the 0x protocol during our token
-                        launch.
-                    </div>
-                ),
-            },
-            {
-                prompt: 'Where can I find a development roadmap?',
-                answer: (
-                    <div>
-                        Check it out{' '}
-                        <a
-                            href="https://drive.google.com/open?id=14IP1N8mt3YdsAoqYTyruMnZswpklUs3THyS1VXx71fo"
-                            target="_blank"
-                        >
-                            here
-                        </a>.
-                    </div>
-                ),
-            },
+           
         ],
     },
     {
